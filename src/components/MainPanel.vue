@@ -43,7 +43,7 @@ const currentImage = computed(() => images.value[currentImageIndex.value]);
 // Buttons to change info
 const activeButton = ref('About me');
 
-const showContent = (button) => {
+const showContent = (button: string) => {
   activeButton.value = button;
 };
 </script>
@@ -256,4 +256,3 @@ mark {
 }
 
 </style>
-
