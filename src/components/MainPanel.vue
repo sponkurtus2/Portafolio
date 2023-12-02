@@ -91,7 +91,6 @@ const showContent = (button: string) => {
       </p>
       <p v-else-if="activeButton === 'Projects'">
         <ul>
-          <li><a href="http://piccolomondocuuintegradora.000webhostapp.com/" target="_blank">Web for PiccoloMondo</a></li>
           <li><a href="https://github.com/sponkurtus2/telegram_bot_Python" target="_blank">Simple telegram bot with Python</a></li>
           <li><a href="https://web-yoyis-animos.vercel.app/" target="_blank">Quote API web</a></li>
         </ul>
